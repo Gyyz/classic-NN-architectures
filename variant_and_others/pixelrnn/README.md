@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Image] -> [Row/Diagonal LSTM with masking] -> [Pixel distribution]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Pixelrnn.
 
-Generated on 2025-11-24.

@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Image] -> [Downsample path] -> [Upsample path with skip connections] -> [Keypoint heatmaps]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Hourglass.
 
-Generated on 2025-11-24.

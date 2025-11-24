@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Input: R^d] -> [Linear -> Activation]*L -> [Output: Linear -> Softmax/Logits]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Mlp.
 
-Generated on 2025-11-24.

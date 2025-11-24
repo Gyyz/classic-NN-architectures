@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Image] -> [Stem] -> [Stages: Depthwise Conv -> LayerNorm -> GELU -> 1×1 Conv]*S -> [GlobalAvgPool -> FC]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Convnext.
 
-Generated on 2025-11-24.

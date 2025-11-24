@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Backbone feature maps] -> [Top-down pathway + lateral connections] -> [Multi-scale feature pyramid] -> [Detection/Segmentation heads]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Fpn.
 
-Generated on 2025-11-24.

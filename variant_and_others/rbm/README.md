@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Visible v] ↔ [Hidden h] with energy E(v,h); Train via contrastive divergence; Sample via Gibbs
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Rbm.
 
-Generated on 2025-11-24.

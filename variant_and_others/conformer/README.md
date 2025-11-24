@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Audio tokens] -> [Conv Subsampling] -> [Blocks: FFN (macaron) -> MHSA -> Conv -> FFN]*N -> [CTC/Transducer Head]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Conformer.
 
-Generated on 2025-11-24.

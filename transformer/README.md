@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Input tokens] -> [Token Embedding + Positional Encoding] -> [Transformer Blocks: Multi-Head Self-Attention -> Add & LayerNorm -> Feed-Forward -> Add & LayerNorm]*N -> [Output Projection -> Softmax/Logits]
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Transformer.
 
-Generated on 2025-11-24.

@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Input x] -> [Encoder] -> [Latent µ, logσ] -> [Sample z = µ + σ ⊙ ε] -> [Decoder] -> [Reconstruction x̂]; Loss = Recon + KL(q(z|x) || p(z))
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Vae.
 
-Generated on 2025-11-24.

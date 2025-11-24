@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Input: sequence x1..xT] -> [LSTM cell with gates (i,f,o,g): c_t,h_t]*T -> [Optional: Bidirectional] -> [Readout] -> [Linear -> Softmax/Logits]
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Lstm.
 
-Generated on 2025-11-24.

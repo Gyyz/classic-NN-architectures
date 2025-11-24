@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Queries Q, Keys K, Values V] -> [Attention Weights α = softmax(QKᵀ/√d)] -> [Weighted Sum αV] -> [Output]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Attention.
 
-Generated on 2025-11-24.

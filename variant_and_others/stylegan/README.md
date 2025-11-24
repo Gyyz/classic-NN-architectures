@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Noise z] -> [Mapping network w] -> [Synthesis network with style modulation] -> [Image] ↔ [Discriminator]
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Stylegan.
 
-Generated on 2025-11-24.

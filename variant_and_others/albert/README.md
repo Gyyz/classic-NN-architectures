@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Tokens] -> [Embeddings (factorized) + Positional] -> [Transformer Encoder (parameters shared across layers)]*N -> [CLS Pool] -> [Task Head]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Albert.
 
-Generated on 2025-11-24.

@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Input] -> [Transform T(x) and Carry C(x) gates] -> [y = T(x) ⊙ H(x) + C(x) ⊙ x]*L -> [Head]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Highway Net.
 
-Generated on 2025-11-24.

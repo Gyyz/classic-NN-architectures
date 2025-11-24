@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Image] -> [Hourglass Backbone] -> [Top-left & Bottom-right corner heatmaps + embeddings] -> [Pair corners -> Boxes]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Cornernet.
 
-Generated on 2025-11-24.

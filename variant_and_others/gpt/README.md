@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Tokens] -> [Embedding + Positional] -> [Decoder-only blocks: Masked Self-Attn -> MLP]*N -> [LM Head -> Next-token probabilities]
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Gpt.
 
-Generated on 2025-11-24.

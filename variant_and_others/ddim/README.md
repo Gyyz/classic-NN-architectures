@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Noise x_T] -> [Deterministic reverse steps with UNet εθ guided by text/cond] -> [x_0 sample]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Ddim.
 
-Generated on 2025-11-24.

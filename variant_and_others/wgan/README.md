@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Generator] ↔ [Critic] with Wasserstein loss; [Weight clipping or gradient penalty] stabilizes training
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Wgan.
 
-Generated on 2025-11-24.

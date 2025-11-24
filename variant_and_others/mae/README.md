@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Image patches] -> [Random mask] -> [Encoder (ViT)] -> [Lightweight decoder reconstructs masked patches]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Mae.
 
-Generated on 2025-11-24.

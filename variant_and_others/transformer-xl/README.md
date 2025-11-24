@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Tokens] -> [Relative positional encodings] -> [Transformer blocks with segment-level memory] -> [LM Head]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Transformer Xl.
 
-Generated on 2025-11-24.

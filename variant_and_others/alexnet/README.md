@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Image] -> [Conv -> ReLU -> LRN -> MaxPool] × stacks -> [FC -> ReLU]*2 -> [FC -> Softmax]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Alexnet.
 
-Generated on 2025-11-24.

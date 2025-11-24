@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Graph] -> [Neighbor sampling] -> [Aggregate (mean/pool/LSTM)] -> [Update node embeddings]*L -> [Task Head]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Graphsage.
 
-Generated on 2025-11-24.

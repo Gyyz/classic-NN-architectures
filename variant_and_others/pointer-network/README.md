@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Sequence] -> [Encoder] -> [Decoder with attention over inputs] -> [Pointer indices as outputs]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Pointer Network.
 
-Generated on 2025-11-24.

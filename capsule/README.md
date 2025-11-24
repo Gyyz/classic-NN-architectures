@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Input feature maps] -> [Primary Capsules (vectors)] -> [Routing-by-Agreement] -> [Digit/Entity Capsules] -> [Vector length (class probabilities) and pose]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Capsule.
 
-Generated on 2025-11-24.

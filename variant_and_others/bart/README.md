@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Text] -> [Encoder (Transformer)] -> [Decoder (Transformer) with Cross-Attention] -> [LM Head -> Tokens]; Pretrain with denoising objectives
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Bart.
 
-Generated on 2025-11-24.

@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Image A] -> [G_AB] -> [Fake B]; [Image B] -> [G_BA] -> [Fake A]; [D_A,D_B adversarial] + [Cycle-consistency: A ≈ G_BA(G_AB(A)), B ≈ G_AB(G_BA(B))]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Cycle Gan.
 
-Generated on 2025-11-24.

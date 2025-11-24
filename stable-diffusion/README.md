@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Text Prompt] -> [Text Encoder (e.g., CLIP)] -> [Latent Diffusion Sampling: UNet Denoiser with Cross-Attention + Scheduler] -> [VAE Decoder] -> [Image]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Stable Diffusion.
 
-Generated on 2025-11-24.

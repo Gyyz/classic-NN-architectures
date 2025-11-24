@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Graph tokens] -> [Structural/positional encodings] -> [Transformer blocks with graph biases] -> [Readout]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Graph Transformer.
 
-Generated on 2025-11-24.

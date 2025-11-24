@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Input x] ↔ [Affine coupling layers with alternating masks]*L -> [Latent z]; Exact log-likelihood; Invert for sampling
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Realnvp.
 
-Generated on 2025-11-24.

@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Tokens] -> [Disentangled Embeddings] -> [Transformer with disentangled attention + relative bias]*N -> [CLS Pool] -> [Task Head]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Deberta.
 
-Generated on 2025-11-24.

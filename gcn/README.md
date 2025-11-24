@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Graph: node features X (N×F), adjacency A (N×N)] -> [Normalize: Â = D^{-1/2}(A+I)D^{-1/2}] -> [GraphConv: H^{l+1} = σ(Â H^l W_l)]*L -> [Readout: node Softmax or graph Pool -> FC]
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Gcn.
 
-Generated on 2025-11-24.

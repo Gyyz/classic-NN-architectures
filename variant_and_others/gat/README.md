@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Graph X,A] -> [Attention coefficients α_ij over neighbors] -> [Aggregate ∑α_ij W x_j] -> [Readout]
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Gat.
 
-Generated on 2025-11-24.

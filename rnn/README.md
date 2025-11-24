@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Input: sequence x1..xT] -> [Recurrent cell f: h_t = f(x_t, h_{t-1})]*T -> [Readout: h_T or {h_t}] -> [Linear -> Softmax/Logits]
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Rnn.
 
-Generated on 2025-11-24.

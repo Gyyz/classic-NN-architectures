@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Input: C×H×W] -> [Conv -> BatchNorm -> ReLU]*N -> [Pooling] -> [Flatten] -> [Fully Connected -> Softmax/Logits]
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Cnn.
 
-Generated on 2025-11-24.

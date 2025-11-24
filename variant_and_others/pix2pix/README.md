@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Image A] -> [U-Net Generator] -> [Image B̂] ↔ [PatchGAN Discriminator] -> [L1 + GAN Loss]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Pix2Pix.
 
-Generated on 2025-11-24.

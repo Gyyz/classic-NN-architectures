@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Source] -> [Encoder (RNN/CNN/Transformer)] -> [Decoder] -> [Attention over encoder states] -> [Target tokens]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Seq2Seq.
 
-Generated on 2025-11-24.

@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Input A] || [Input B] -> [Shared Encoder] -> [Distance/Similarity metric] -> [Contrastive/Triplet Loss]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Siamese.
 
-Generated on 2025-11-24.

@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Input x] -> [Encoder] -> [Bottleneck z] -> [Decoder] -> [Reconstruction x̂]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Autoencoder.
 
-Generated on 2025-11-24.

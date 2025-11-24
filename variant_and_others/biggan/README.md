@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Class y, Noise z] -> [Generator with class-conditional BN] -> [Image] ↔ [Discriminator (projection/class-conditional)] -> [Adversarial Loss]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Biggan.
 
-Generated on 2025-11-24.

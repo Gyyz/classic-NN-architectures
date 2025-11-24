@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Image] -> [Dense Blocks: each layer receives concat of all previous] -> [Transition (BN -> Conv -> Pool)] -> [GlobalAvgPool -> FC]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Densenet.
 
-Generated on 2025-11-24.

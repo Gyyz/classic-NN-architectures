@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Noise z] -> [Generator: ConvTranspose -> BN -> ReLU]* -> [Image] ↔ [Discriminator: Conv -> BN -> LeakyReLU]* -> [Adversarial Loss]
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Dcgan.
 
-Generated on 2025-11-24.

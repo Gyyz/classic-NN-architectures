@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Image] -> [CSP backbone] -> [PANet] -> [Head predicts boxes/classes]; Training with augmentations and autoanchor
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Yolov5.
 
-Generated on 2025-11-24.

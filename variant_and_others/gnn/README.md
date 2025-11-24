@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Graph] -> [Message passing: m_ij = φ(x_i,x_j,e_ij)] -> [Update x_i' = ψ(x_i,∑ m_ij)]*L -> [Readout]
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Gnn.
 
-Generated on 2025-11-24.

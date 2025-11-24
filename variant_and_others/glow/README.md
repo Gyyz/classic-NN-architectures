@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Input x] ↔ [Invertible flow steps: ActNorm -> 1×1 Conv -> Affine Coupling]*L -> [Latent z]; Log-likelihood exact; Sample via inverse
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Glow.
 
-Generated on 2025-11-24.

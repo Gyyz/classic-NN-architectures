@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Data x_0] -> [Forward noising q(x_t|x_{t-1})]; Sampling: [x_T ~ N(0,I)] -> [Reverse denoise with UNet εθ] -> [x_0]
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Ddpm.
 
-Generated on 2025-11-24.

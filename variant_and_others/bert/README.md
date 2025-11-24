@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Tokens] -> [Token + Segment + Positional Embeddings] -> [Transformer Encoder]*N -> [CLS Pool] -> [MLM/NSP Heads or Task Head]
 ```
 
 Canonical Papers
@@ -26,4 +26,3 @@ Further Reading
 
 - Search for more resources on Bert.
 
-Generated on 2025-11-24.

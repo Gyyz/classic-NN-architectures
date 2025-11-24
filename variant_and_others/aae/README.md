@@ -13,10 +13,10 @@ Key Ideas
 - Training considerations
 - Typical applications
 
-Minimal Diagram
+Detailed Flow
 
 ```
-[Input] -> [Layers/Blocks] -> [Output]
+[Input x] -> [Encoder] -> [Latent z] ↔ [Discriminator enforces prior p(z)] -> [Decoder] -> [Reconstruction x̂]; Loss = Recon + Adversarial prior matching
 ```
 
 Canonical Papers
@@ -25,4 +25,3 @@ Further Reading
 
 - Search for more resources on Aae.
 
-Generated on 2025-11-24.
