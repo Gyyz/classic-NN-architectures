@@ -35,16 +35,10 @@ Below are classic NN families included here, with a quick note and a sample comm
   - Try: `python3 -c "from cnn.implementation import run_example; run_example()"`
 
 - ResNet (Residual Network)
-  - Adds residual connections to ease optimization of deep CNNs
-  - Try: `python3 -c "from resnet.implementation import run_example; run_example()"`
-
+ 
 - MLP (Multi-Layer Perceptron)
-  - Fully connected layers with nonlinearities
-  - Try: `python3 -c "from mlp.implementation import run_example; run_example()"`
-
+ 
 - AutoEncoder (AE)
-  - Encoder–decoder that reconstructs inputs
-  - Try: `python3 -c "from autoencoder.implementation import run_example; run_example()"`
 
 - VAE (Variational AutoEncoder)
   - Probabilistic encoder (mean/logvar), reparameterization trick, decoder reconstructs
@@ -60,31 +54,13 @@ Below are classic NN families included here, with a quick note and a sample comm
     ```
 
 - RNN (Recurrent Neural Network)
-  - Sequential processing, hidden state carries temporal information
-  - Try: `python3 -c "from rnn.implementation import run_example; run_example(seq_len=16, input_dim=128)"`
-
+  
 - LSTM (Long Short-Term Memory)
   - RNN variant with gates to combat vanishing gradients
-  - Try: `python3 -c "from lstm.implementation import run_example; run_example(seq_len=16, input_dim=128)"`
 
 - GCN (Graph Convolutional Network)
   - Message passing over graphs using adjacency-based aggregation
   - Try: `python3 -c "from gcn.implementation import run_example; run_example(num_nodes=12, in_dim=16)"`
-
-## Repository Structure
-
-- `architecture_name/implementation.py` — minimal PyTorch module, docstring, and often `run_example()`
-- `run_architecture.py` — helper script that can run selected architectures (where applicable)
-
-Examples of directories:
-- `cnn/`, `resnet/`, `vgg/`, `lenet/`, `inception/`
-- `mlp/`, `perceptron/`
-- `rnn/`, `lstm/`, `gru/`, `bilstm/`
-- `gcn/`, `graphsage/`, `gat/`, `gin/`
-- `autoencoder/`, `vae/`, `beta-vae/`
-- `gan/`, `dcgan/`, `wgan/`, `stylegan/`, `stylegan2/`
-- `ddpm/`, `ddim/`, `stable-diffusion/` (placeholder-style demos)
-- `transformer/`, `roberta/`, `t5/`, `vit/`
 
 ## Notes
 
